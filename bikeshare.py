@@ -31,6 +31,7 @@ def get_filters():
             print("please Enter a vaild city")
 
     # TO DO: get user input for month (all, january, february, ... , june)
+    # In addition ".lower" to not being sensitive to characters
     month_name = ''
     while month_name.lower() not in MONTH_DATA:
         month_name = input("\nWhat is the name of the month to filter data? (E.g. Input either 'all' to apply no month filter or january, february, ... , june)\n")
